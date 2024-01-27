@@ -1,0 +1,12 @@
+# greeting_script.py
+
+def main():
+    # Get the user's name
+    name = input("Enter your name: ")
+
+    # Greet the user
+    greeting = f"Hello, {name}! Welcome to the repository."
+    print(greeting)
+
+if __name__ == "__main__":
+    main()
